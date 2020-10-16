@@ -1,0 +1,93 @@
+
+
+.navbar-brand img{
+  height: 40px;
+}
+
+.footer{
+  text-align: center;
+}
+
+.container{
+  min-height: 87.5vh;
+}
+
+.btn{
+  box-shadow: 4px 4px 23px -4px rgba(0,0,0,0.75);
+}
+
+.shadow{
+  box-shadow: 4px 4px 23px -4px rgba(0,0,0,0.25);
+}
+
+html, body{
+  /* background: linear-gradient(to right, #7ec1ff93, rgb(100, 181, 246)) rgb(255, 255, 255) !important; */
+}
+
+.home{
+  margin: 0;
+  width: 100%;
+  min-width: 100%;
+}
+
+.removeButtons-container{
+  margin: 5%;
+  padding: 2%;
+  width: 120px;
+}
+
+.column-container{
+  width: 120px;
+}
+
+.content-cell{
+  width: 60px;
+}
+
+.cell-container{
+  width: 120px;
+  padding: 2%;
+  margin-bottom: 2%;
+  display: flex;
+}
+
+.cell-item{
+  width: 50px;
+  padding: 2%;
+}
+
+.cell{
+  width: 75%;
+  padding: 5%;
+  text-align: center;
+}
+
+.cell-top-left{
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.cell-top-right{
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.cell-bottom-left{
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.cell-bottom-right{
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
