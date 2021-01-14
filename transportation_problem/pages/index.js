@@ -132,7 +132,7 @@ export default class Home extends Component {
 		const newData = bkData.slice(0,rowIndex).concat(bkData.slice(rowIndex+1, bkData.length));
 		supply = supply.slice(0,rowIndex).concat(supply.slice(rowIndex+1, supply.length));
 
-		this.setState({data: newData, rowsNumber: this.state.rowsNumber + 1, supply});
+		this.setState({data: newData, rowsNumber: this.state.rowsNumber - 1, supply});
 	}
 
 	changeCellContent = function(e, row, column){
